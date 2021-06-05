@@ -1,0 +1,58 @@
+<!--
+/**
+ * Based on https://github.com/Moerill/mess
+ */
+-->
+<style>
+    .welcome-screen a[href] {
+        color: #4a52ca;
+    }
+    .welcome-screen .window-content > * {
+        flex: 0;
+    }
+</style>
+
+<h1>Welcome to Better RollTables!</h1>
+
+<p>Check the <a href="https://github.com/ultrakorne/better-rolltables/blob/master/README.md">README</a> or <a href="https://github.com/ultrakorne/better-rolltables/wiki">wiki</a> for more info on the module features</p>
+<h3><a href="https://www.youtube.com/watch?v=TRg4y0joOKA&feature=youtu.be"> Youtube Better Tables Overview! </a></h3>
+<h2>Bugs or Suggestions?</h2>
+<p>Add an <a href="https://github.com/ultrakorne/better-rolltables/issues">issue on Github</a> or drop me a line on Discord!</p>
+
+<p style="font-weight: bold; text-align: right;">Ultrakorne#6240</p>
+
+<p style="display: flex; flex-flow: row nowrap; align-items: center; justify-content: flex-start;"><input type="checkbox" class='show-again' id="welcome-screen-show-again" {{checked isChecked}}/> <label for="welcome-screen-show-again">Don't show this screen again until next update.</label></p>
+<p><b>A Big Thank You to everyone who donated, it is very appreciated! I did not expect those at all!</b></p>
+<p style="text-align: right"><strong>My Tip Jar: <a href="https://www.paypal.com/paypalme/ultrakorne">Paypal</a></strong></p>
+
+<h1>Patchnotes</h1>
+
+<h2 id="v164">v1.6.4</h2>
+<ul>
+    <li>Exposed API to get story reults via macro 'game.betterTables.getStoryResults(table)' (thanks jsabol)</li>
+    <li>Added macro only function to add generated loot to selected token with 'game.betterTables.addLootToSelectedToken(table)' (Thanks VaderDojo for the code) </li>
+</ul>
+<h2 id="v163">v1.6.3</h2>
+<ul>
+    <li>Module updated for foundry 0.7.5</li>
+    <li>fixed paypal link (that's why i was getting no tip right!?</li>
+</ul>
+<h2 id="v151">v1.5.1</h2>
+<ul>
+    <li>Faster performance when parsing loot tables with a lot of text entries</li>
+    <li>Fixed a bug where text items where not created correctly</li>
+</ul>
+<h2 id="v150">v1.5.0</h2>
+<ul>
+    <li>Loot tables now also have the formula field for every result similar to (not for text result)</li>
+    <li>Updated Loot table examples (5e) showcasing simpler table configuration</li>
+    <li>New documentation page for <a href="https://github.com/ultrakorne/better-rolltables/wiki/Loot-Tables">loot tables</a></li>
+    <li>Spanish translation (thanks to HonzoNebro)</li>
+</ul>
+<h2 id="v140">v1.4.0</h2>
+<ul>
+    <li>New Welcome screen with patchnotes!</li>
+    <li>New Tables with a lot of Human names, Orc names and surnames (check inside the Story Tables). They will be used in NPC Generators in future releases</li>
+    <li>Localized in Portoguese (thanks to rinnocenti)</li>
+    <li>Korean Localization updated (thanks KLO)</li>
+</ul>

@@ -1,0 +1,63 @@
+{
+  "name": "better-rolltables-v2",
+  "title": "Better Roll Tables v2",
+  "description": "Adding functionality to roll tables, especially to roll treasure and magic items",
+  "version": "1.6.5",
+  "author": "Ultrakorne#6240, updated by Tengoku",
+  "esmodules": [
+    "./scripts/brt-main.js"
+  ],
+  "styles": [
+    "./styles/brt.css"
+  ],
+  "packs": [
+    {
+      "name": "brt-loot",
+      "label": "Loot Tables",
+      "system": "dnd5e",
+      "path": "./packs/loot-tables.db",
+      "entity": "Table"
+    },
+    {
+      "name": "brt-story",
+      "label": "Story Tables",
+      "system": "dnd5e",
+      "path": "./packs/story-tables.db",
+      "entity": "Table"
+    },
+    {
+      "name": "brt-gen",
+      "label": "Story Generators",
+      "system": "dnd5e",
+      "path": "./packs/story-generators.db",
+      "entity": "Journal"
+    }
+  ],
+  "minimumCoreVersion": "0.7.3",
+  "compatibleCoreVersion": "0.7.7",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "ko",
+      "name": "Korean",
+      "path": "lang/ko.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    },
+    {
+      "lang": "es-ES",
+      "name": "Castellano",
+      "path": "lang/es-ES.json"
+    }
+  ],
+  "url": "https://github.com/ultrakorne/better-rolltables",
+  "manifest": "https://raw.githubusercontent.com/ultrakorne/better-rolltables/master/module.json",
+  "download": "https://github.com/ultrakorne/better-rolltables/releases/download/v1.6.4/better-rolltables.zip"
+}
