@@ -1,5 +1,7 @@
 <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/ultrakorne/better-rolltables?style=flat-square"> <img alt="GitHub" src="https://img.shields.io/github/license/ultrakorne/better-rolltables?style=flat-square"> <img alt="GitHub Releases" src="https://img.shields.io/github/downloads/ultrakorne/better-rolltables/latest/total?style=flat-square">  
 
+# Please note, this repository is only for testing/Development purposes, I do not intend to steal this project #
+
 # Better Rolltables #
 *better-rolltables* is Module for FoundryVTT to improve and add functionality to Rollable tables
 Implementing for example the Treasure Hoard" Tables from the Dungeon master manual becomes possible!

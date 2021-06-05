@@ -1,6 +1,6 @@
 {
-  "name": "better-rolltables-v2",
-  "title": "Better Roll Tables v2",
+  "name": "better-rolltables-fixed",
+  "title": "Better Roll Tables Fixed",
   "description": "Adding functionality to roll tables, especially to roll treasure and magic items",
   "version": "1.6.5",
   "author": "Ultrakorne#6240, updated by Tengoku",
@@ -57,7 +57,7 @@
       "path": "lang/es-ES.json"
     }
   ],
-  "url": "https://github.com/ultrakorne/better-rolltables",
-  "manifest": "https://raw.githubusercontent.com/ultrakorne/better-rolltables/master/module.json",
-  "download": "https://github.com/ultrakorne/better-rolltables/releases/download/v1.6.4/better-rolltables.zip"
+  "url": "https://github.com/gaijindev/test-project",
+  "manifest": "https://github.com/gaijindev/test-project/master/module.json",
+  "download": "https://github.com/gaijindev/test-project/releases/download/v1.6.5/better-rolltables.zip"
 }
